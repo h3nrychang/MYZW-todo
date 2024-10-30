@@ -139,9 +139,7 @@
                 layer.open({
                     type: 1,
                     title: '更多',
-                    content: '<div style="padding: 15px;">综维-张赫原<br>' +
-                        'zhangheyuan@sc.chinamobile.com<br>' +
-                        'zhangheyuan@msn.com</div>',
+                    content: '',
                     area: ['260px', '100%'],
                     offset: 'rt', // 右上角
                     anim: 'slideLeft', // 从右侧抽屉滑出
