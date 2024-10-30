@@ -139,7 +139,7 @@
                 layer.open({
                     type: 1,
                     title: '更多',
-                    content: '',
+                    content: '0',
                     area: ['260px', '100%'],
                     offset: 'rt', // 右上角
                     anim: 'slideLeft', // 从右侧抽屉滑出
