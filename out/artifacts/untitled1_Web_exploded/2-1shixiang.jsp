@@ -157,7 +157,7 @@
             } finally {
                 DBUtil.close(conn, pstmt, rs);
             }
-        } else {
+        } else if ("user".equals(role)){
 //            非管理员
             out.print("<table class='layui-table'>");
             out.print("<thead><tr><th>ID</th><th>标题</th><th>详情</th><th>发起人</th><th>预计完成时间</th><th>重要性</th><th>状态</th><th>操作</th></tr></thead>");
@@ -227,6 +227,8 @@
             } finally {
                 DBUtil.close(conn, pstmt, rs);
             }
+        } else {
+            out.print("页面失效，请重新登录。");
         }
 
     }
