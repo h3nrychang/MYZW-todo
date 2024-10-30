@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link href="../static/css/layui.css" rel="stylesheet">
     <style>
-        h2, p {
+        h2, p, a {
             color: white;
         }
 
@@ -94,7 +95,8 @@
 <div class="content">
     <div class="avatar"></div>
     <div class="name">综维中心 待办管理系统 V1.0</div>
-    <div class="signature">Henry Chang 张赫原</div>
+    <div class="signature">Henry Chang</div>
+    <div class="signature"><a target="_blank" href="https://github.com/h3nrychang/MYZW-todo"><i class="layui-icon layui-icon-github"></i> GitHub</a></div>
 </div>
 
 <div class="section blurred-background">
@@ -111,4 +113,6 @@
 </div>
 
 </body>
+<script src="../static/layui.js"></script>
+
 </html>
