@@ -69,8 +69,18 @@
                     textBoxNames.push(inputs[i].name);
                 }
             }
+
+            // 创建提交按钮
+            var submitButton = document.createElement('input');
+            submitButton.type = 'submit';
+            submitButton.value = '提交';
+
+            // 将提交按钮添加到表单中
+            form.appendChild(submitButton);
+
             // 输出拼接后的字符串
             console.log(textBoxNames.join(', '));
+
         }
     </script>
 </head>
