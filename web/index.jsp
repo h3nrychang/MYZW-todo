@@ -82,8 +82,6 @@
                         <dd><a href="javascript:;" data-iframe="./2-0yilan.jsp">待办事项一览</a></dd>
                         <dd><a href="javascript:;" data-iframe="./2-1shixiang.jsp">待办事项管理系统</a></dd>
                         <dd><a href="javascript:;" data-iframe="./2-2liucheng.jsp">作业流程管理系统</a></dd>
-<%--                        <dd><a href="javascript:;">list 2</a></dd>--%>
-<%--                        <dd><a href="javascript:;">超链接</a></dd>--%>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
@@ -93,7 +91,6 @@
                         <dd><a href="javascript:;" data-iframe="./2zhengzhi.jsp">修改资料</a></dd>
                         <dd><a href="javascript:;" data-iframe="./3jifangxunjian.jsp">修改密码</a></dd>
                         <dd><a href="javascript:;" data-iframe="./sys/about.jsp">关于</a></dd>
-                        <%--                        <dd><a href="javascript:;" data-iframe="iframe4.html">the links</a></dd>--%>
                     </dl>
                 </li>
 <%--                <li class="layui-nav-item"><a href="javascript:;">看不见我</a></li>--%>
@@ -105,7 +102,6 @@
         <!-- 内容主体区域 -->
         <iframe id="contentFrame" src="homeframe.jsp" style="width:100%; height:100%;padding: 0;margin:0"></iframe>
     </div>
-
 </div>
 
 <script src="./static/layui.js"></script>

@@ -89,7 +89,7 @@
 
 <%
     // 接收额外的extra字段
-    out.print("【调试】准备接受额外字段<br>");
+//    out.print("【调试】准备接受额外字段<br>");
     PreparedStatement trackingPstmt = conn.prepareStatement(
             "SELECT t.*, u.username, t.extra " +
                     "FROM task_tracking t " +
@@ -109,7 +109,7 @@
 //    trackingRs.next();
 
     System.out.println("【调试】trackingRs.getString(\"extra\")：" + trackingRs.getString("extra"));
-    out.print("【调试】" + trackingRs.getString("extra") + "<br>");
+//    out.print("【调试】" + trackingRs.getString("extra") + "<br>");
 
     if (trackingRs.getString("extra") != "") {
         // 获取extra字段（假设是JSON格式）
@@ -120,7 +120,7 @@
         headers = json.getJSONArray("headers");
         data = json.getJSONArray("data");
     }
-    out.print("【调试】执行完毕！<br>");
+//    out.print("【调试】执行完毕！<br>");
 %>
 
 
@@ -216,7 +216,7 @@
             String paramName = parameterNames.nextElement();
             String paramValue = request.getParameter(paramName);
 
-            out.println("【调试】【遍历参数名称】参数名: " + paramName + ", 参数值: " + paramValue + "<br>");
+//            out.println("【调试】【遍历参数名称】参数名: " + paramName + ", 参数值: " + paramValue + "<br>");
             System.out.println("【调试】【遍历参数名称】参数名: " + paramName + ", 参数值: " + paramValue + "<br>");
 
             paramValues.add(paramValue);
